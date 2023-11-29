@@ -8,6 +8,8 @@ import Footer from "./components/global/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const revalidate = 60 // revalidate at most every minute
+
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
   title: "Sanity Next.js Portfolio Site",
